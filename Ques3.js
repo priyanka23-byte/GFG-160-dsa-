@@ -18,17 +18,17 @@ console.log(reverseArray([5,4,7,2,1]));
 
 //optimised approach = two pointer approach;
 
-function reverseArray(arr){
-    let i =0;
-    let j= arr.length-1;
+// function reverseArray(arr){
+//     let i =0;
+//     let j= arr.length-1;
 
-    while(i<j){
-        [arr[i], arr[j]]= [arr[j],arr[i]];
-        i++;
-        j--;
+//     while(i<j){
+//         [arr[i], arr[j]]= [arr[j],arr[i]];
+//         i++;
+//         j--;
 
-    }
-    return arr;
-}
+//     }
+//     return arr;
+// }
 
-
+// //
